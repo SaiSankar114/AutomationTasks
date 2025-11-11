@@ -21,6 +21,8 @@ public class locatorsHandlingNavigationandValidation {
 //            Using Xpath"://div[@id='nav-cart-count-container']
             Locator  cart=  page.locator("//div[@id='nav-cart-count-container']");
             cart.click();
+// As you asked for verification added the step here 
+            assert page.isVisible("Cart"); // I user isVisable because, I can inspect the text cart. So I have used this.
 //            CSS:#nav-cart-count-container
 //			  Using visable text"
 //            page.locator("text=cart")

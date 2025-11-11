@@ -1,6 +1,6 @@
 package testAutomationTasks;
-
 import com.microsoft.playwright.Browser;
+import static org.junit.Assert.assertTrue;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
@@ -39,8 +39,5 @@ public class Herokuapp_HandlingAndAuth {
 
 }
 
-	private static void assertTrue(String string, boolean visible) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 }
