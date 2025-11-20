@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var faker_1 = require("@faker-js/faker");
+var username = "admin";
+var passowrd = "oGUW6iwg3=P=";
+var Authorization = btoa("".concat(username, ":").concat(passowrd));
+console.log(Authorization);
+var fname = faker_1.faker.person.firstName();
+var Cname = faker_1.faker.company.buzzNoun();
+console.log(fname);
+console.log(Cname);
